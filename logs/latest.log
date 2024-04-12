@@ -1,0 +1,250 @@
+[13:11:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:11:08] [ServerMain/INFO]: Loaded 1174 recipes
+[13:11:08] [ServerMain/INFO]: Loaded 1271 advancements
+[13:11:09] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[13:11:09] [Server thread/INFO]: Loading properties
+[13:11:09] [Server thread/INFO]: This server is running Folia version git-Folia-"ef2c697" (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: ef2c697)
+[13:11:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:11:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:11:10] [Server thread/WARN]: [!] The timings system cannot be enabled on Folia, and has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:11:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[13:11:10] [Server thread/INFO]: [io.papermc.paper.threadedregions.TickRegions] Regionised ticking is enabled with 2 tick threads
+[13:11:10] [Server thread/INFO]: Default game type: SURVIVAL
+[13:11:10] [Server thread/INFO]: Generating keypair
+[13:11:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:11:10] [Server thread/INFO]: Using default channel type
+[13:11:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:11:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:11:10] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\MiniPlaceholders-Spark-Expansion-1.0.1.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [MiniPlaceholders, spark]. Please download and install these plugins to run 'MiniPlaceholders-Spark-Expansion'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:513) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1217) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:346) ~[folia-1.20.4.jar:git-Folia-"ef2c697"]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[13:11:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[13:11:11] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[13:11:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:11:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:11:12] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:11:12] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:11:12] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[13:11:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.10
+[13:11:12] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.7.0
+[13:11:12] [Server thread/INFO]: [ClientDetector] Loading server plugin ClientDetector v2.6.2
+[13:11:13] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v3.20
+[13:11:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:11:13] [Server thread/INFO]: Preparing level "world"
+[13:11:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:11:13] [Server thread/INFO]: Time elapsed: 12 ms
+[13:11:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:11:13] [Server thread/INFO]: Time elapsed: 4 ms
+[13:11:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:11:13] [Server thread/INFO]: Time elapsed: 3 ms
+[13:11:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[13:11:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[13:11:13] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.10
+[13:11:13] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
+[13:11:13] [Server thread/INFO]: [voicechat] Compatibility version 18
+[13:11:13] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[13:11:13] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[13:11:13] [Server thread/INFO]: [GSit] Enabling GSit v1.7.0
+[13:11:14] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:11:14] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[13:11:14] [Server thread/INFO]: [ClientDetector] Enabling ClientDetector v2.6.2
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Version) Detected Version git-Folia-"ef2c697" (MC: 1.20.4)
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Version) Loading settings for Version git-Folia-"ef2c697" (MC: 1.20.4)
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Protocol) Loading protocols...
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Config) Loading config(s)...
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Detection) Loading client detections...
+[13:11:14] [Server thread/INFO]: [ClientDetector] (Detection) Loading mod detections...
+[13:11:14] [Server thread/INFO]: [ClientDetector] (ViaVersion) Detected ViaVersion 4.9.3
+[13:11:14] [Server thread/INFO]: [ClientDetector] (ConfigOptimizer)  We detected a problem with your configuration, it will be updated automatically: Config file: 'config.yml', path: 'forge.simulateForgeHandshake'
+[13:11:14] [Server thread/INFO]: [ClientDetector] IMPORTANT NOTIFICATION: Forge modlist detection for 1.17 - 1.20.2 is currently marked as UNSTABLE and therefore will be automatically disabled!!
+[13:11:14] [Server thread/INFO]: [ClientDetector] Started!
+[13:11:14] [Server thread/INFO]: [BlueMap] Enabling BlueMap v3.20
+[13:11:14] [BlueMap-Load/INFO]: [BlueMap] Loading...
+[13:11:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[13:11:14] [Server thread/INFO]: Done (5.047s)! For help, type "help"
+[13:11:14] [Region Scheduler Thread #0/INFO]: [voicechat] Loading plugins
+[13:11:14] [Region Scheduler Thread #0/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:11:14] [Region Scheduler Thread #0/INFO]: [voicechat] Initializing plugins
+[13:11:14] [Region Scheduler Thread #0/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:11:14] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[13:11:14] [BlueMap-Load/WARN]: [BlueMap] BlueMap is missing important resources!
+[13:11:14] [BlueMap-Load/WARN]: [BlueMap] You must accept the required file download in order for BlueMap to work!
+[13:11:14] [BlueMap-Load/WARN]: [BlueMap] Please check: C:\Users\sasul\Desktop\FoliaServer\plugins\BlueMap\core.conf
+[13:11:14] [BlueMap-Load/INFO]: [BlueMap] If you have changed the config you can simply reload the plugin using: /bluemap reload
+[13:11:14] [Region Scheduler Thread #1/INFO]: Initialising world 'world' before it can be ticked...
+[13:11:14] [Region Scheduler Thread #1/INFO]: Initialised world 'world'
+[13:11:14] [Region Scheduler Thread #1/INFO]: Timings Reset
+[13:11:14] [Region Scheduler Thread #1/INFO]: Initialising world 'world_nether' before it can be ticked...
+[13:11:14] [Region Scheduler Thread #1/INFO]: Initialised world 'world_nether'
+[13:11:14] [Via Async Scheduler 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:11:14] [Region Scheduler Thread #0/INFO]: Initialising world 'world_the_end' before it can be ticked...
+[13:11:14] [Region Scheduler Thread #0/INFO]: Initialised world 'world_the_end'
+[13:11:15] [Folia Async Scheduler Thread #1/INFO]: *-------------------------------------------*
+[13:11:15] [Folia Async Scheduler Thread #1/INFO]: [ClientDetector]: A new version is available!
+[13:11:15] [Folia Async Scheduler Thread #1/INFO]: *-------------------------------------------*
+[13:11:32] [User Authenticator #0/INFO]: UUID of player saltzus is 1df0965d-0308-41c0-a27e-d71953c3b72c
+[13:11:33] [Region Scheduler Thread #0/INFO]: saltzus joined the game
+[13:11:33] [Region Scheduler Thread #0/INFO]: saltzus[/[0:0:0:0:0:0:0:1]:55379] logged in with entity id 99 at ([world]215.5, 83.0, 113.5)
+[13:11:46] [Region Scheduler Thread #0/INFO]: Unknown command. Type "/help" for help.
+[13:12:02] [Region Scheduler Thread #1/INFO]: Made saltzus a server operator
+[13:12:10] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /gamemode survival
+[13:12:12] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /gamemode creative
+[13:12:12] [Region Scheduler Thread #0/INFO]: [saltzus: Set own game mode to Creative Mode]
+[13:12:20] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /tps
+[13:13:59] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /bluemap
+[13:14:06] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap saltzus
+[13:14:12] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /bluemap start
+[13:14:22] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap worlds
+[13:14:24] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap worlds saltzus
+[13:14:31] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap help
+[13:14:37] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap reload
+[13:14:37] [BlueMap-Plugin-ReloadCommand/WARN]: [BlueMap] BlueMap is missing important resources!
+[13:14:37] [BlueMap-Plugin-ReloadCommand/WARN]: [BlueMap] You must accept the required file download in order for BlueMap to work!
+[13:14:37] [BlueMap-Plugin-ReloadCommand/WARN]: [BlueMap] Please check: C:\Users\sasul\Desktop\FoliaServer\plugins\BlueMap\core.conf
+[13:14:37] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] If you have changed the config you can simply reload the plugin using: /bluemap reload
+[13:15:35] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap reload
+[13:15:35] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Downloading https://piston-data.mojang.com/v1/objects/b178a327a96f2cf1c9f98a45e5588d654a3e4369/client.jar to bluemap\minecraft-client-1.20.3.jar ...
+[13:15:38] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading resources...
+[13:15:39] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading textures...
+[13:15:45] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Baking resources...
+[13:15:45] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Resources loaded.
+[13:15:45] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading world 'c1b4bfd1-dfa4-4042-b5fb-f3dfb1c2f0a3' (C:\Users\sasul\Desktop\FoliaServer\world)...
+[13:15:45] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Initializing Storage: 'file' (Type: FILE)
+[13:15:45] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading map 'world'...
+[13:15:46] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading world 'be757349-09ba-4429-93f7-32e07b970172' (C:\Users\sasul\Desktop\FoliaServer\world_the_end\DIM1)...
+[13:15:46] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading map 'world_the_end'...
+[13:15:46] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading world '93d76b47-08ff-4a6d-a52a-4639cb176cdc' (C:\Users\sasul\Desktop\FoliaServer\world_nether\DIM-1)...
+[13:15:46] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] Loading map 'world_nether'...
+[13:15:46] [BlueMap-Plugin-ReloadCommand/INFO]: [BlueMap] WebServer bound to all network interfaces on port 8100
+[13:15:46] [Thread-15/INFO]: [BlueMap] WebServer started.
+[13:15:49] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /bluemap help
+[13:15:57] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /bluemap maps
+[13:25:46] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /icanhasbukkit
+[13:26:36] [User Authenticator #1/INFO]: UUID of player RealDoggoHitman is edb55971-5e9b-4561-a014-a085b6ddc492
+[13:26:36] [Region Scheduler Thread #1/INFO]: RealDoggoHitman joined the game
+[13:26:36] [Region Scheduler Thread #1/INFO]: RealDoggoHitman[/192.168.64.218:51697] logged in with entity id 1993 at ([world]209.5, 69.0, 103.5)
+[13:26:48] [Netty Server IO #3/WARN]: Failed to update secure chat state for RealDoggoHitman: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[13:27:03] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:03] [Region Scheduler Thread #1/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:05] [Region Scheduler Thread #0/INFO]: RealDoggoHitman was doomed to fall by Zombie
+[13:27:06] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:06] [Region Scheduler Thread #0/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:08] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:08] [Region Scheduler Thread #0/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:09] [Netty Server IO #3/WARN]: Failed to update secure chat state for RealDoggoHitman: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[13:27:10] [Region Scheduler Thread #0/INFO]: RealDoggoHitman fell from a high place
+[13:27:11] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /op RealDoggoHitman
+[13:27:11] [Region Scheduler Thread #0/INFO]: [saltzus: Made RealDoggoHitman a server operator]
+[13:27:12] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:12] [Region Scheduler Thread #1/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:13] [Async Chat Thread - #2/INFO]: <RealDoggoHitman> op mej
+[13:27:14] [Region Scheduler Thread #0/INFO]: RealDoggoHitman fell from a high place
+[13:27:23] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /gamemode creative RealDoggoHitman
+[13:27:23] [Region Scheduler Thread #0/INFO]: [saltzus: Set RealDoggoHitman's game mode to Creative Mode]
+[13:27:24] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:24] [Region Scheduler Thread #1/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:26] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /gamemode creative
+[13:27:27] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:27] [Region Scheduler Thread #0/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:32] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:27:47] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-20 ~-20 ~-20 minecraft:tnt
+[13:27:48] [Region Scheduler Thread #1/INFO]: [saltzus: Successfully filled 9261 block(s)]
+[13:27:52] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /tp RealDoggoHitman saltzus
+[13:27:52] [Region Scheduler Thread #0/INFO]: [saltzus: Teleported RealDoggoHitman to saltzus]
+[13:27:56] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /time set day
+[13:27:56] [Region Scheduler Thread #1/INFO]: [RealDoggoHitman: Set the time to 1000]
+[13:28:31] [Region Scheduler Thread #1/INFO]: RealDoggoHitman has made the advancement [Monster Hunter]
+[13:31:03] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /kill saltzus
+[13:31:03] [Region Scheduler Thread #1/INFO]: [RealDoggoHitman: Killed saltzus]
+[13:31:03] [Region Scheduler Thread #0/INFO]: saltzus was killed
+[13:31:20] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-200 ~-200 ~-200 minecraft:tnt
+[13:31:24] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-200 ~-200 ~-200 minecraft:tnt
+[13:31:27] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /give RealDoggoHitman minecraft:command_block
+[13:31:27] [Region Scheduler Thread #0/INFO]: [RealDoggoHitman: Gave 1 [Command Block] to RealDoggoHitman]
+[13:31:33] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-100 ~-100 ~-100 minecraft:tnt
+[13:31:40] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-100 ~-100 ~-10 minecraft:tnt
+[13:31:46] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-100 ~-70 ~-10 minecraft:tnt
+[13:31:52] [Region Scheduler Thread #1/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-50 ~-70 ~-10 minecraft:tnt
+[13:31:57] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-50 ~-60 ~-10 minecraft:tnt
+[13:32:00] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-50 ~-40 ~-10 minecraft:tnt
+[13:32:01] [Region Scheduler Thread #0/INFO]: [saltzus: Successfully filled 23001 block(s)]
+[13:32:13] [Region Scheduler Thread #0/INFO]: saltzus lost connection: Disconnected
+[13:32:13] [Region Scheduler Thread #0/INFO]: [voicechat] Disconnecting client saltzus
+[13:32:13] [Region Scheduler Thread #0/INFO]: saltzus left the game
+[13:33:08] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /tps
+[13:33:14] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /tps
+[13:33:37] [User Authenticator #2/INFO]: UUID of player saltzus is 1df0965d-0308-41c0-a27e-d71953c3b72c
+[13:33:37] [Region Scheduler Thread #1/INFO]: saltzus joined the game
+[13:33:37] [Region Scheduler Thread #1/INFO]: saltzus[/[0:0:0:0:0:0:0:1]:55891] logged in with entity id 44312 at ([world]244.0008521076414, 118.98261788180983, 139.04514496434166)
+[13:33:58] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:34:01] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:34:03] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:34:04] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:34:19] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-30 ~-30 ~-30 tnt
+[13:34:19] [Region Scheduler Thread #0/INFO]: [saltzus: Successfully filled 29791 block(s)]
+[13:35:18] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /fill ~ ~ ~ ~-40 ~-40 ~-40
+[13:35:22] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /fill ~ ~ ~ ~-40 ~-40 ~-40 minecraft:tnt
+[13:35:35] [Region Scheduler Thread #0/INFO]: saltzus issued server command: /fill ~ ~ ~ ~-30 ~-30 ~-30 tnt
+[13:35:35] [Region Scheduler Thread #0/INFO]: [saltzus: Successfully filled 29788 block(s)]
+[13:35:55] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /fill ~ ~ ~ ~-40 ~-40 ~-40 minecraft:tnt
+[13:35:58] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /tps
+[13:36:13] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /tps
+[13:36:35] [Region Scheduler Thread #1/INFO]: RealDoggoHitman issued server command: /kill saltzus
+[13:36:35] [Region Scheduler Thread #1/INFO]: [RealDoggoHitman: Killed saltzus]
+[13:36:35] [Region Scheduler Thread #1/INFO]: saltzus was killed
+[13:36:37] [Region Scheduler Thread #1/INFO]: saltzus has made the advancement [Stone Age]
+[13:37:07] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /gamemode survival
+[13:37:07] [Region Scheduler Thread #0/INFO]: [RealDoggoHitman: Set own game mode to Survival Mode]
+[13:37:11] [Region Scheduler Thread #0/INFO]: saltzus lost connection: Disconnected
+[13:37:11] [Region Scheduler Thread #0/INFO]: [voicechat] Disconnecting client saltzus
+[13:37:11] [Region Scheduler Thread #0/INFO]: saltzus left the game
+[13:37:34] [Region Scheduler Thread #0/INFO]: RealDoggoHitman was blown up by saltzus
+[13:37:44] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /gamemode creative
+[13:37:44] [Region Scheduler Thread #0/INFO]: [RealDoggoHitman: Set own game mode to Creative Mode]
+[13:37:53] [Region Scheduler Thread #0/INFO]: RealDoggoHitman issued server command: /gamemode creative
+[13:38:19] [Region Scheduler Thread #0/INFO]: Stopping the server
+[13:38:19] [Region shutdown thread/INFO]: [RegionShutdownThread] Awaiting scheduler termination for 60s
+[13:38:19] [Region shutdown thread/INFO]: [RegionShutdownThread] Scheduler halted
+[13:38:19] [Region shutdown thread/INFO]: Stopping server
+[13:38:19] [Region shutdown thread/INFO]: [BlueMap] Disabling BlueMap v3.20
+[13:38:19] [Region shutdown thread/INFO]: [BlueMap] Stopping...
+[13:38:19] [Region shutdown thread/INFO]: [BlueMap] Saved and stopped!
+[13:38:19] [Region shutdown thread/INFO]: [ClientDetector] Disabling ClientDetector v2.6.2
+[13:38:19] [Region shutdown thread/INFO]: -----------------------------------------
+[13:38:19] [Region shutdown thread/INFO]: [ClientDetector] Background tasks have disabled successfully!
+[13:38:19] [Region shutdown thread/INFO]: -----------------------------------------
+[13:38:19] [Region shutdown thread/INFO]: [ClientDetector] Shutdown complete!
+[13:38:19] [Region shutdown thread/INFO]: -----------------------------------------
+[13:38:19] [Region shutdown thread/INFO]: [GSit] Disabling GSit v1.7.0
+[13:38:19] [Region shutdown thread/INFO]: [GSit] The plugin was successfully disabled.
+[13:38:19] [Region shutdown thread/INFO]: [voicechat] Disabling voicechat v2.5.10
+[13:38:19] [Region shutdown thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[13:38:19] [Region shutdown thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[13:38:19] [Region shutdown thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[13:38:19] [Region shutdown thread/INFO]: [RegionShutdownThread] Halting chunk systems
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:38:19] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:38:19] [Region shutdown thread/INFO]: [RegionShutdownThread] Halted chunk systems
+[13:38:19] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [37, 5] in world 'world'
+[13:38:21] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 1432 block chunks, 294 entity chunks, 0 poi chunks in world 'world' in 1,75s
+[13:38:21] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [13, 7] in world 'world_nether'
+[13:38:21] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[13:38:21] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [13, 7] in world 'world_the_end'
+[13:38:21] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[13:38:21] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving players
+[13:38:21] [Region shutdown thread/INFO]: Flushing Chunk IO
+[13:38:21] [Region shutdown thread/INFO]: Closing Thread Pool
+[13:38:21] [Region shutdown thread/INFO]: Closing Server
